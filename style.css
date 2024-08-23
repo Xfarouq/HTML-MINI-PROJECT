@@ -67,6 +67,12 @@ form button{
     margin-top: 20px;
     font-size: 16px;
     font-weight: 200;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid black;
 }
 
 section.product{
@@ -95,4 +101,5 @@ section.product{
 .product .card img{
     height: 200px;
 }
+
 
